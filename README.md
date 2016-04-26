@@ -8,4 +8,5 @@ As the project gets bigger and needs to work offline/online I have felt need a w
 2) Once your view is created call NetworkStatusReciever.RegisterParentView() with the parent view element and the context and that's all, your UI elements marked network dependent will be disabled in case network goes
 3) In case if you need to apply grayscale to all disabled views you can pass a colorfilter to apply in case of disabling
 4) You can also implement a callback to handle network callbacks in case you need specific items
+For more details check wiki at https://github.com/sinha-abhishek/NetworkManagedUI/wiki 
     
